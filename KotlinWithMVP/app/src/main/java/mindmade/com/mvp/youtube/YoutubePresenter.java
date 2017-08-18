@@ -1,4 +1,4 @@
-package mindmade.com.myapplication.youtube;
+package mindmade.com.mvp.youtube;
 
 import android.util.Log;
 
@@ -14,11 +14,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import mindmade.com.myapplication.utils.AppConstants;
+import mindmade.com.mvp.utils.AppConstants;
 
-/**
- * Created by Mindmade technologies.
- */
 
 public class YoutubePresenter implements YoutubeView.TubePresenter {
     private YoutubeView.TubeView mView;

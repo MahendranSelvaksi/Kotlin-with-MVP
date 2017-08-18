@@ -1,4 +1,4 @@
-package mindmade.com.myapplication;
+package mindmade.com.mvp;
 
 import org.junit.Test;
 

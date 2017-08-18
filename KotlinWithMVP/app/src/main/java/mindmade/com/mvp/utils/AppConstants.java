@@ -1,8 +1,6 @@
-package mindmade.com.myapplication.utils;
+package mindmade.com.mvp.utils;
 
-/**
- * Created by Mindmade technologies.
- */
+
 
 public class AppConstants {
 

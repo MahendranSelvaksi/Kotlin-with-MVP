@@ -1,4 +1,4 @@
-package mindmade.com.myapplication.utils;
+package mindmade.com.mvp.utils;
 
 import android.app.Application;
 
@@ -8,9 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 
-/**
- * Created by Mindmade technologies.
- */
+
 
 public class AppController extends Application {
 

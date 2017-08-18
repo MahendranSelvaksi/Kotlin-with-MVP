@@ -1,8 +1,4 @@
-package mindmade.com.myapplication.youtube;
-
-/**
- * Created by mahendran on 10-10-2016.
- */
+package mindmade.com.mvp.youtube;
 
 public class YouTubeDataModel {
 

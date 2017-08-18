@@ -1,4 +1,4 @@
-package mindmade.com.myapplication.kotlin.youtube
+package mindmade.com.mvp.kotlin.youtube
 
 import android.content.Context
 import android.content.Intent
@@ -13,17 +13,14 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.GlideDrawable
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import mindmade.com.myapplication.R
-import mindmade.com.myapplication.utils.AppConstants
+import mindmade.com.mvp.R
+import mindmade.com.mvp.utils.AppConstants
 
-import mindmade.com.myapplication.youtube.YouTubeDataModel
-import mindmade.com.myapplication.youtube.YoutubeAdapter
-import mindmade.com.myapplication.youtubePlayer.YoutubePlayerActivity
+import mindmade.com.mvp.youtube.YouTubeDataModel
+import mindmade.com.mvp.youtube.YoutubeAdapter
+import mindmade.com.mvp.youtubePlayer.YoutubePlayerActivity
 
 
-/**
- * Created by Cogniti Digital Solutions.
- */
 class YoutubeKoltinAdapter(context: Context, dataModel: List<YouTubeDataModel>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     var mContext: Context? = context
     var mData: List<YouTubeDataModel>? = dataModel

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/YoutubePlayer.iml" filepath="$PROJECT_DIR$/YoutubePlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinWithMVP.iml" filepath="$PROJECT_DIR$/KotlinWithMVP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,18 +1,16 @@
-package mindmade.com.myapplication.kotlin.youtube
+package mindmade.com.mvp.kotlin.youtube
 
 import android.util.Log
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
-import mindmade.com.myapplication.utils.AppConstants
-import mindmade.com.myapplication.youtube.YouTubeDataModel
-import mindmade.com.myapplication.youtube.YoutubeView
+import mindmade.com.mvp.utils.AppConstants
+import mindmade.com.mvp.youtube.YouTubeDataModel
+import mindmade.com.mvp.youtube.YoutubeView
 import org.json.JSONObject
 
-/**
- * Created by Mindmade technologies.
- */
+
 class YoutubeKotlinPresenter(view: YoutubeKotlinView.TubeKotlinView) : YoutubeView.TubePresenter {
     val mView: YoutubeKotlinView.TubeKotlinView = view;
     override fun loadData(pageKoken: String?) {

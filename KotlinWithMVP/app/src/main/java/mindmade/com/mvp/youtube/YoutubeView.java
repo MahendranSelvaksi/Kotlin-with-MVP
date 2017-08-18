@@ -1,10 +1,8 @@
-package mindmade.com.myapplication.youtube;
+package mindmade.com.mvp.youtube;
 
 import java.util.List;
 
-/**
- * Created by Mindmade technologies.
- */
+
 
 public interface YoutubeView {
 

@@ -1,10 +1,8 @@
-package mindmade.com.myapplication.kotlin.youtube
+package mindmade.com.mvp.kotlin.youtube
 
-import mindmade.com.myapplication.youtube.YouTubeDataModel
+import mindmade.com.mvp.youtube.YouTubeDataModel
 
-/**
- * Created by Mindmade technologies.
- */
+
 public interface YoutubeKotlinView {
 
     interface TubeKotlinView {

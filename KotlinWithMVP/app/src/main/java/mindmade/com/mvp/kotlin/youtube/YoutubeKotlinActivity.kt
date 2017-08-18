@@ -1,4 +1,4 @@
-package mindmade.com.myapplication.kotlin.youtube
+package mindmade.com.mvp.kotlin.youtube
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -8,12 +8,11 @@ import android.util.Log
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.Toast
-import mindmade.com.myapplication.R
-import mindmade.com.myapplication.utils.AppConstants
-import mindmade.com.myapplication.utils.AppKotlinConstants
-import mindmade.com.myapplication.youtube.YouTubeDataModel
-import mindmade.com.myapplication.youtube.YoutubeAdapter
-import mindmade.com.myapplication.youtube.YoutubeView
+import mindmade.com.mvp.R
+import mindmade.com.mvp.utils.AppKotlinConstants
+import mindmade.com.mvp.youtube.YouTubeDataModel
+import mindmade.com.mvp.youtube.YoutubeAdapter
+import mindmade.com.mvp.youtube.YoutubeView
 import java.util.*
 
 class YoutubeKotlinActivity : AppCompatActivity(), YoutubeView.TubeView, YoutubeKotlinView.TubeKotlinView {

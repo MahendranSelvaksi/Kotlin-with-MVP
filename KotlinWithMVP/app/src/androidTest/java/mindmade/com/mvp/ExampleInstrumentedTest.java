@@ -1,4 +1,4 @@
-package mindmade.com.myapplication;
+package mindmade.com.mvp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("mindmade.com.myapplication", appContext.getPackageName());
+        assertEquals("mindmade.com.kotlin.mvp", appContext.getPackageName());
     }
 }

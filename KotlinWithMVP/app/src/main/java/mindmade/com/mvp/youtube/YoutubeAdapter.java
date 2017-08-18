@@ -1,10 +1,9 @@
-package mindmade.com.myapplication.youtube;
+package mindmade.com.mvp.youtube;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,13 +17,11 @@ import com.bumptech.glide.request.target.Target;
 
 import java.util.List;
 
-import mindmade.com.myapplication.utils.AppConstants;
-import mindmade.com.myapplication.R;
-import mindmade.com.myapplication.youtubePlayer.YoutubePlayerActivity;
+import mindmade.com.mvp.utils.AppConstants;
+import mindmade.com.mvp.R;
+import mindmade.com.mvp.youtubePlayer.YoutubePlayerActivity;
 
-/**
- * Created by Mindmade technologies.
- */
+
 
 public class YoutubeAdapter extends RecyclerView.Adapter {
     public Context mContext;
